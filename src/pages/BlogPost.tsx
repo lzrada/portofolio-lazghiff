@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { Section } from "@/components/Section";
 import { PageTransition } from "@/components/PageTransition";
-import { usePageTitle } from "@/hooks/usePageTitle";
+import { usePageTitle } from "@/hooks/UsePageTitle";
 import { posts } from "@/data/site";
 
 export default function BlogPost() {
